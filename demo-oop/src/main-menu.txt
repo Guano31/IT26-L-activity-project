@@ -1,0 +1,5 @@
+Home,./pages/home.php
+Products,./pages/products.php
+Services,./pages/services.php
+About us,./pages/about.php
+Contact us,./pages/contact.php
