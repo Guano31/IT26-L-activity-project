@@ -1,0 +1,288 @@
+body {
+   background: rgb(238, 174, 202);
+   background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+   font-family: Arial, Helvetica, sans-serif;
+   background-attachment: fixed;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+
+}
+
+header {
+   background-image: url(../img/seaeagle.jpg);
+   height: 72px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: right;
+   color: #ffffff;
+   background-color: rgb(184, 135, 156);
+
+}
+
+header h1 {
+   text-align: center;
+   padding-bottom: 0.5em;
+   padding-top: 0.5em;
+}
+
+.heroimage {
+   height: 300px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 100%;
+   background-image: url(../img/images1.jpg)
+}
+
+.wrapper {
+   max-width: 80%;
+   background-color: white;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 10px 8px 20px -1px rgba(0, 0, 0, 0.75);
+   -webkit-box-shadow: 10px 8px 20px -1px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 10px 8px 20px -1px rgba(0, 0, 0, 0.75);
+}
+
+nav {
+   background-color: white;
+   text-align: center;
+   padding: 0.5em;
+  
+   
+
+}
+
+nav a {
+   font-weight: 600;
+   color: rgba(21, 21, 155, 0.979);
+   text-decoration: none;
+   padding: 0.5em 1em 0.5em 1em;
+   display: inline-block;
+
+}
+
+nav a:hover {
+   color: white;
+   background-color: rgba(21, 21, 155, 0.979);
+  margin-right: auto;
+   transition: 0.4s;
+   font-weight: bold;
+}
+
+main {
+   padding: 0em 6em 2em 6em;
+}
+
+footer {
+   padding: 0em 6em 2em 6em;
+   text-align: center;
+
+
+
+}
+
+/*cottage*/
+
+.heroimage1 {
+   height: 300px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 100%;
+   background-image: url(../img/heroimage2.jpg)
+}
+
+.listing {
+   padding: 0.2em;
+   display: flex;
+   background-color: #a5f0f2;
+
+}
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   overflow: hidden;
+   background-color: #ffffff;
+   border-radius: 20px;
+
+}
+
+nav li {
+   display: inline-block;
+}
+
+.card {
+
+   border-radius: 14px;
+   display: inline-block;
+   vertical-align: text-top;
+   margin: 2em;
+   max-width: 300px;
+   background-color: #FFFFFF;
+   box-shadow: 19px 4px 20px -8px rgba(0, 0, 0, 0.87);
+   -webkit-box-shadow: 19px 4px 20px -8px rgba(0, 0, 0, 0.87);
+   -moz-box-shadow: 19px 4px 20px -8px rgba(0, 0, 0, 0.87);
+   transition: 0.2s;
+   overflow: hidden;
+}
+
+.card:hover {
+   max-width: 320px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+   width: 100%;
+   max-height: 200px;
+   object-fit: cover;
+   object-position: 0% center;
+   transition: 0.2s;
+
+}
+
+.card-title {
+   padding: 0.5em 1.3em 0.5em 0.7em;
+   font-size: 1.8em;
+   font-weight: 800;
+}
+
+
+
+.card-body {
+   padding: 0px 1.3em 1.3em 1.3em;
+   height: 150px;
+   overflow: auto;
+}
+
+.card__d {
+   margin: 10px 0 0;
+   font-size: 14px;
+   color: #777;
+   line-height: 1.4;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.add {
+   padding: 0px 7em 0px 7em;
+ 
+}
+
+.content1 {
+   text-align: center;
+}
+
+
+/* Roomrates*/
+
+.content2 {
+   text-align: center;
+}
+
+
+
+.heroimage3 {
+   background-image: url(../img/heroimage1.jpg);
+   height: 300px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 80%;
+}
+
+
+
+
+/* reservation*/
+form {
+   margin: 0 auto;
+   width: 400px;
+   padding: 50px;
+   border: 1px solid white;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+}
+
+label {
+   display: block;
+   margin-bottom: 1px;
+   font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="datetime"] {
+   width: 100%;
+   padding: 5px;
+   border: 1 px solid#ccc;
+   border-radius: 3px;
+   margin-bottom: 10px;
+   border: 1px solid black;
+}
+
+button {
+   margin-top: 15px;
+   background-color: blue;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #2980b9;
+   margin-top: 10px;
+}
+
+h2 {
+   text-align: left;
+}
+
+/* About us*/
+
+.heroimage4 {
+   height: 300px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 100%;
+   background-image: url(../img/heroimage3.jpg)
+}
+
+.facilities ul {
+   list-style-position: outside;
+   text-align: 0px;
+}
+
+
+
+@media only screen and (max-width:720px){
+   .pc{
+       display:none;
+   }
+   .wrapper {
+       background-color: #FFFFFF;
+       max-width: 100%;
+       box-shadow: none;
+   }
+   header{
+       background-image: none;
+   }
+
+   nav ul li a {
+       font-size: 1.5em;
+       padding: 0.9em;
+       display:block;
+   }
+   
+}
+
+
+@media only screen and (min-width:720px){
+   .mbl{
+      display: none;
+   }
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/main-style.css">
+</head>
+
+<body>
+    <div class="warpper">
+        <header>
+            <h1> Enjoy Charm and Modern luxury</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a>&nbsp;&nbsp;</li>
+                <li><a href="../pages/cottage.html">Cottages&nbsp;&nbsp;</a></li>
+                <li><a href="../pages/Roomrates.html">Room Rates&nbsp;&nbsp;</a></li>
+                <li><a href="../pages/Reservatiom.html">Reservation&nbsp;&nbsp;</a></li>
+                <li><a href="../pages/Aboutus.html">About Us &nbsp;&nbsp;</a></li>
+            </ul>
+        </nav>
+        <form action="F">
+
+            <label for="Familyname"> FamilyName:</label> <br>
+            <input type="text" id="Familyname" required>
+            <br>
+            <label for="email">Email:</label> <br>
+            <input type="text" id="email" required>
+            <br>
+            <label for="room"> Rooms #</label> <br>
+            <input type="number" id="room" required min="0">
+            <br>
+            <label for="cottage">Cottages #</label> <br>
+            <input type="number" id="cottage" min="0" required>
+            <br>
+            <div class="input-box">
+            <label for="client_notes">Notes:</label>
+            <textarea name="client_notes" id="" cols="30" rows="10"></textarea>
+            </div> <br>
+            <label for="checkin">check-in Date:</label>
+            <input type="date" id="checkin" required>
+            
+            <label for="checkout">check-out Date:</label> 
+            <input type="date" id="checkout" required>
+            <br>
+            <button type="Submit"> Done</button>
+        </form>
+    </div>
+</body>
+
+</html>

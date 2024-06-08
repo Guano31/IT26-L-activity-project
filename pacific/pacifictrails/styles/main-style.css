@@ -1,0 +1,145 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background: linear-gradient(76deg, rgba(0, 33, 113, 1) 0%, rgba(25, 118, 210, 1) 19%, rgba(187, 222, 251, 1) 42%, rgba(102, 102, 102, 1) 75%, rgba(255, 255, 255, 1) 100%);
+    background-attachment: fixed;
+}
+
+.wrapper {
+    background-color: #FFFFFF;
+    max-width: 80%;
+    min-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.17);
+}
+
+header {
+    background-image: url(../images/sunset.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 72px;
+    ;
+    background-size: contain;
+    background-color: #06226c;
+    color: #FFFFFF;
+}
+
+header h1 {
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+nav {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5em 2em 0.5em 2em;
+    display: inline-block;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #0a82c3;
+}
+
+
+.homehero {
+    height: 300px;
+    background-image: url(../images/beach.jpg);
+    background-size: cover;
+    background-position: 0 40%;
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+.listing {
+    padding: 0.5em 2em 0.5em 2em;
+    background-color: #f3f3f3;
+}
+
+.card {
+    border-radius: 14px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0.5em;
+    max-width: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.card:hover {
+    max-width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: 0% center;
+    
+}
+
+.card-title {
+    padding: 0.5em 1.3em 0.5em 0.7em;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+.card-title a {
+    color: #0a82c3;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 0px 1.3em 1.3em 1.3em;
+    height: 150px;
+    overflow: auto;
+}
+
+.card p {
+    display: inline;
+}
+
+/*KUNG GAMAY ANG SCREEN*/
+@media only screen and (max-width:720px){
+    .desktop{
+        display:none;
+    }
+    .wrapper {
+        background-color: #FFFFFF;
+        max-width: 100%;
+        box-shadow: none;
+    }
+    header{
+        background-image: none;
+    }
+
+    nav a {
+        font-size: 1.5em;
+        padding: 0px ;
+        display:block;
+    }
+}
+
+/*KUNG DAKO ANG SCREEN*/
+@media only screen and (min-width:720px){
+ .mobile{
+    display: none;
+ }
+}
